@@ -1,0 +1,99 @@
+html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
+    margin: 0;
+    padding: 0; 
+    border:none; 
+    outline:none;
+    list-style-type:none;
+    background-color: black;
+ }
+
+ .layout {
+    width: 1366px;
+    height: 700px;
+    display: grid;
+    grid:
+    "container" auto
+    "." 1fr
+    / 1fr;
+  gap: 8px;
+  }
+  
+
+ .container{
+    display: flex;
+    align-items:center;
+    align-content: space-around;
+    margin: 30px 10px 10px 150px;
+    flex-direction: row;
+    border: 4px solid #555555;
+    height: 50px;
+    width: 1165px;
+    background-color: #6d6a6a;
+ }
+
+ h4{
+    text-align: left;
+	margin: 15px 5px 10px 20px;
+	font-size: 1.25em;
+	font-weight: normal;
+    font-weight: bold;
+ }
+
+ h1{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 300px;
+    font-size: 50px;
+    font-weight:bold;
+    color: rgb(247, 142, 13);
+ }
+
+ .input {
+    display: flex;
+    align-content: space-between;
+    border: 2px solid #333;
+    margin: 10px 5px 10px 5px;
+    height: 25px;
+    width: 200px;
+    background-color: aliceblue;
+ }
+
+ input{
+    border: 1px solid #333;
+    margin: 0 0 0 0;
+    height: 22px;
+    width: 196px;
+ }
+
+ .main {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    margin: 10px 10px 10px 150px;
+    flex-direction: row;
+    border: 4px solid #333;
+    height:375px;
+    width: 1165px;
+    background-image: url(/img/fundo.png);
+    background-repeat: no-repeat;
+    background-position:
+    bottom,
+    left,
+    right;
+ }
+ 
+ img{
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 150px;
+    width: 130px;
+    height: 200px;
+ }
+  
+ .monstro{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 800px;
+    width: 230px;
+    height: 258px;
+ }

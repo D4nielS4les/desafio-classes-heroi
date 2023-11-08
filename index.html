@@ -11,25 +11,31 @@
       <div class="container">
         <h4>Nome do Heroi :</h4>
         <div class="input">
-          <input type="text" id="nome" />
+          <input type="text" id="nome" placeholder="Digite o Nome do Heroi" />
         </div>
 
         <h4>Idade :</h4>
         <div class="input">
-          <input type="text" id="Idade" />
+          <input type="text" id="idade" placeholder="Digite a idade"/>
         </div>
 
         <h4>Tipo :</h4>
-        <div class="input">
-          <input type="select" id="nome" />
+        <div class="input" id="tipo">
+          <select name="select">
+            <option value="guerreiro">Guerreiro</option>
+            <option value="mago" selected>Mago</option>
+            <option value="monge">Monge</option>
+            <option value="ninja">Ninja</option>
+          </select>
         </div>
+        <button id="btn" class="btn" onclick="atacar">Atacar</button>
       </div>
       <div class="main">
         <img src="/img/mago.png" alt="guerreiro">
         <img src="/img/monstro.png" alt="guerreiro" class="monstro">
       </div>
-      <h1>Atacou</h1>
+      <h1 id="h1">OH e agora que poderá nos defender??</h1>
     </section>
-   
+   <script src="/index.js"></script>
   </body>
 </html>
